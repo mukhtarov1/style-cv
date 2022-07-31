@@ -274,16 +274,18 @@ nav a:hover::before {
   text-align: center;
   background-size: cover;
 }
+
 .slides .slide .content {
-  overflow-y: scroll;
-  position: relative;
-  width: 70%;
-  height: 80%;
-  left: 30%;
-  top: 10%;
-  bottom: 10%;
-  background: rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+    position: relative;
+    width: 70%;
+    height: 80%;
+    left: 30%;
+    top: 10%;
+    bottom: 10%;
+    background: rgb(0 0 0 / 82%);
 }
+
 .content::-webkit-scrollbar {
   width: 5px;
   height: 8px;
